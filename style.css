@@ -736,7 +736,8 @@ video:focus{
 
     }
 
-    .AboutUs{
+    .AboutUs,
+    .Testimonials{
         padding-left: 0;
         padding-right: 0;
     }
@@ -758,10 +759,88 @@ video:focus{
     .aboutUs-title {
         margin-left: 0px;
         text-align: center;
+        font-size: 30px;
     }
     
+    .PopularMiddle {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .PopularMiddle br{
+        display: none;
+    
+    }
+
+    .PopularCard-rightButton {
+       margin-top: 0px; 
+
+    }
     
 }
+
+@media (max-width: 600px){
+    
+    .header-title,
+    .aboutUs-title,
+    .title {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .menu1 {
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+    .menu {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .menu2 {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+
+    .aboutUs-card1,
+    .aboutUs-card2 {
+        justify-content: center;
+        height: 166px;
+        width: 350px;
+    }
+
+    .card-Tony {
+        height: 140px;
+    }
+
+    .agent-button {
+        margin-top: 12px;
+    }
+
+    .PopularDown-leftUp {
+        width: 350px;
+        justify-content: center;
+    }
+
+    .PopularDownCard {
+        margin-right: 0px; 
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .T-card {
+        margin-right: 0px;
+        width: 350px;
+        padding: 10px;
+        font-family: "Roboto", sans-serif;
+        position: relative;
+    }
+
+    .fUp-right {
+        display: none;
+    }
+}
+
 .block{
     display: block;
 }
