@@ -701,7 +701,8 @@ video:focus{
     .header-desc{
         display:block;
     }
-    .header-menu{
+    .header-menu,
+    .PopularCard1 {
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -737,7 +738,8 @@ video:focus{
     }
 
     .AboutUs,
-    .Testimonials{
+    .Testimonials,
+    .Popular{
         padding-left: 0;
         padding-right: 0;
     }
