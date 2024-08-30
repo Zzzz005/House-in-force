@@ -724,7 +724,6 @@ video:focus{
         display:flex;
         justify-content:end;
         margin-right: 30px;
-        
     }
     .icon{
         margin-left: 0px;
@@ -850,6 +849,10 @@ video:focus{
 
 .block{
     display: block;
+}
+
+.house-btn{
+    position: relative;
 }
 .house-slide{
     position: absolute;
