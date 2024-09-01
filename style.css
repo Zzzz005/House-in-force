@@ -646,6 +646,76 @@ video:focus{
 .house-menu{
     display: none;
 }
+
+.header-button{
+    position: relative;
+}
+
+.popup{
+    font-family: "Roboto", sans-serif;
+    left: 85.5%;
+    top: -114%;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 380px;
+    padding: 20px 30px;
+    background-color: #fffefe;
+    box-shadow: 2px 2px 5px 5px rgba(152, 150, 150, 0.673);
+    border-radius: 20px;
+    opacity: 0;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 20ms;
+}
+
+.popup.active{
+    top: 24%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 20ms;
+}
+
+.popup .close-btn{
+    position: absolute;
+    cursor: pointer;
+}
+
+.popup .form h2{
+    color: #4f8960;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    font-weight: 700;
+}
+
+.popup .form .form-element{
+    margin: 15px 0px;
+}
+.popup .form .form-element label{
+    font-size: 14px;
+    color: #222;
+}
+
+.popup .form .form-element input[type="text"],
+.popup .form .form-element input[type="password"]{
+    margin-top: 5px ;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+.popup .form .form-element button{
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #FFFF;
+    background-color:#4f8960;
+}
+
 @media (max-width: 1500px){
     
     
